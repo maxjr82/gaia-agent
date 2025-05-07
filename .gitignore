@@ -1,0 +1,11 @@
+# virtual environments
+.env
+.venv
+env/
+venv/
+
+# Data related dirs
+data
+
+# IDE config
+.vscode
