@@ -52,9 +52,19 @@ This agent is the **capstone** of the HuggingFace AI Agents course’s final uni
 
 3. **Configure API keys**
 
+   ```ini
    OPENROUTER_API_KEY=your_openrouter_key
-   WOLFRAM_APP_ID=your_wolframalpha_app_id  
+   WOLFRAM_APP_ID=your_wolframalpha_app_id
+   ```  
 
+4. **Run the Gradio App Interface**
+
+   ```bash
+   gradio app.py
+   ```
+
+   After execution, Gradio will provide a local URL (e.g., http://127.0.0.1:7860)
+   where you can interact with the GAIA Agent directly from your browser.
 
 ## 📥 Accessing GAIA Questions
 You can access a subset of GAIA questions via the Hugging Face API:
