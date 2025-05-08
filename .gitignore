@@ -4,8 +4,9 @@
 env/
 venv/
 
-# Data related dirs
-data
-
 # IDE config
 .vscode
+
+# Cache files
+__pycache__/
+tools/__pycache__/

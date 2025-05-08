@@ -62,3 +62,8 @@ You can access a subset of GAIA questions via the Hugging Face API:
 https://agents-course-unit4-scoring.hf.space/questions
 
 ⚠️ Note: This link is temporary and is expected to expire by the end of May 2025.
+
+## 🙌 Acknowledgments
+
+- This project builds upon the initial template provided by the [Hugging Face AI Agents Course](https://github.com/huggingface/agents-course).
+- For more information on the GAIA benchmark, visit the [GAIA Benchmark on Hugging Face](https://huggingface.co/gaia-benchmark).
