@@ -15,9 +15,20 @@ MODEL_OPTIONS = [
 
 # A few sample GAIA questions
 EXAMPLES = [
-    "What was the actual enrollment count of the clinical trial on H. pylori in acne vulgaris patients from Jan-May 2018 as listed on the NIH website?",
-    "If a person is 12 years younger than the French president, Emmanuel Macron, what age is the person?",
-    "In NASA’s Astronomy Picture of the Day on 2006 January 21, which astronaut from the smaller appearance spent the least time in space, and how many minutes did he spend? Provide last name and minutes.",
+    (
+        "What was the actual enrollment count of the clinical trial on H. "
+        "pylori in acne vulgaris patients from Jan-May 2018 as listed on the "
+        "NIH website?"
+    ),
+    (
+        "If a person is 12 years younger than the French president, Emmanuel "
+        "Macron, what age is the person?"
+    ),
+    (
+        "In NASA’s Astronomy Picture of the Day on 2006 January 21, which "
+        "astronaut from the smaller appearance spent the least time in space, "
+        "and how many minutes did he spend? Provide last name and minutes."
+    ),
 ]
 
 
@@ -96,8 +107,10 @@ with gr.Blocks(theme="default") as demo:
     gr.Markdown(
         """
         **Notes**  
-        - The agent is re-instantiated when you change the model.  
-        - You can copy/paste additional GAIA questions or pick from the examples.  
+        - The agent is re-instantiated when you change the model.
+        - You can copy/paste additional GAIA questions or pick from the examples.
+
+        **🔗 [Source Code & Documentation on GitHub](https://github.com/maxjr82/gaia-agent)**
         """
     )
 
